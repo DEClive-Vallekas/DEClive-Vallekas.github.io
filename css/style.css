@@ -1,0 +1,96 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: greenyellow;
+}
+
+body header {
+	margin: 20px;
+	padding: 20px;
+}
+
+body header div.left {
+	display: flex;
+	float: left;
+}
+
+body header div.left a {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+body header div.left a img {
+	display: flex;
+	float: left;
+	margin-right: 15px;
+}
+
+body header div.left a h1 {
+	margin-left: 15px;
+	color: green;
+}
+
+body header div.right {
+	display: flex;
+	float: right;
+	margin: 30px;
+	color: green;
+}
+
+body header div.right nav ul {
+	column-count: 2;
+	gap: 10px;
+}
+
+body header div.right nav ul li {
+	list-style-type: none;
+}
+
+body header div.right nav ul li a {
+	text-decoration: none;
+	padding: 15px;
+	background-color: greenyellow;
+	color: green;
+	border: 2px solid green;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+body header div.right nav ul li a:hover {
+	background-color: green;
+	color: greenyellow;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+body header div.right nav ul li a.select {
+	background-color: green;
+	color: greenyellow;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+body main {
+	clear: both;
+	margin: 20px;
+	padding: 30px;
+	color: green;
+}
+
+body main div.presentation {
+	background-color: green;
+	color: greenyellow;
+	border-radius: 5px;
+}
+
+body main div.presentation header {
+	padding: 20px;
+}
+
+body main div.presentation footer {
+	padding: 20px 40px 20px 40px;
+}
