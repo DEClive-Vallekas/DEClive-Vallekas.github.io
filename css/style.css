@@ -86,3 +86,32 @@ body header div.right nav ul li a.select {
 	border-radius: 10px;
 	font-weight: bold;
 }
+
+body main {
+	margin: 0px 30px;
+}
+
+body main div.presentation {
+	background-color: green;
+	color: greenyellow;
+	border-radius: 5px;
+}
+
+body main div.presentation header {
+	padding: 20px;
+	display: block;
+}
+
+body main div.presentation header h1 {
+	font-size: 24pt;
+}
+
+body main div.presentation header h2 {
+	margin: 0px 30px;
+	font-size: 18pt;
+}
+
+body main div.presentation footer {
+	margin: 0px 30px;
+	padding: 20px;
+}
