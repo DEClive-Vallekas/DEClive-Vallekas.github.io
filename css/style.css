@@ -97,21 +97,21 @@ body main div.presentation {
 	border-radius: 5px;
 }
 
-body main div.presentation header {
+body main section.presentation header {
 	padding: 20px;
 	display: block;
 }
 
-body main div.presentation header h1 {
+body main section.presentation header h2 {
 	font-size: 24pt;
 }
 
-body main div.presentation header h2 {
+body main section.presentation header h3 {
 	margin: 0px 30px;
 	font-size: 18pt;
 }
 
-body main div.presentation footer {
+body footer {
 	margin: 0px 30px;
 	padding: 20px;
 }
