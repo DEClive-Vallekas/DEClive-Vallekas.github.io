@@ -91,7 +91,7 @@ body main {
 	margin: 0px 30px;
 }
 
-body main div.presentation {
+body main section.presentation {
 	background-color: green;
 	color: greenyellow;
 	border-radius: 5px;
